@@ -41,7 +41,6 @@ var Chess = function(fen) {
     var WHITE = 'w';
 
     var EMPTY = -1;
-    
 
     var PAWN = 'p';
     var KNIGHT = 'n';
@@ -1445,7 +1444,7 @@ var Chess = function(fen) {
                     }
                 }
 
-                return header_obj;
+                                                                                                                                                                                                                                           return header_obj;
             }
 
             var newline_char = (typeof options === 'object' &&
